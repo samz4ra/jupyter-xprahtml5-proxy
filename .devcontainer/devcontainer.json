@@ -1,0 +1,25 @@
+{
+  "name": "ScreenDock",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-dev",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installJupyterlab": {
+      "type": "boolean",
+      "default": false,
+      "description": "Install JupyterLab, a web-based interactive development environment for notebooks"  
+      },
+      
+    "configureJupyterlabAllowOrigin": {
+      "type": "string",
+      "default": "",
+      "description": "Configure JupyterLab to accept HTTP requests from the specified origin"
+      },
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers-contrib/features/yt-dlp:1": {},
+    "ghcr.io/devcontainers/features/git-lfs:1": {},
+    "ghcr.io/devcontainers-contrib/features/tldr:1": {},
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
+      "ghcr.io/guiyomh/features/just:0": {}
+    }
+  }
+}
